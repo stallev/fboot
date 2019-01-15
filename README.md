@@ -1,3 +1,3 @@
-# Projct name
+# Project name
 * link to project
-https://stallev.github.io/start2/
+https://stallev.github.io/fboot/
