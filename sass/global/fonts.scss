@@ -1,11 +1,44 @@
 @font-face {
-  font-family: 'Lato';
-  src: url('../fonts/subset-Lato-Heavy.eot');
-  src: url('../fonts/subset-Lato-Heavy.eot?#iefix') format('embedded-opentype'),
-  url('../fonts/subset-Lato-Heavy.woff2') format('woff2'),
-  url('../fonts/subset-Lato-Heavy.woff') format('woff'),
-  url('../fonts/subset-Lato-Heavy.ttf') format('truetype'),
-  url('../fonts/subset-Lato-Heavy.svg#Lato-Heavy') format('svg');
-  font-weight: 900;
+  font-family: 'RobotoRegular';
+  src: url('../fonts/RobotoRegular.eot');
+  src: url('../fonts/RobotoRegular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/RobotoRegular.woff2') format('woff2'),
+  url('../fonts/RobotoRegular.woff') format('woff'),
+  url('../fonts/RobotoRegular.ttf') format('truetype'),
+  url('../fonts/RobotoRegular.svg#RobotoRegular') format('svg');
+  font-weight: 400;
   font-style: normal;
+}
+@font-face {
+  font-family: 'RobotoBold';
+  src: url('../fonts/RobotoBold.eot');
+  src: url('../fonts/RobotoBold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/RobotoBold.woff2') format('woff2'),
+  url('../fonts/RobotoBold.woff') format('woff'),
+  url('../fonts/RobotoBold.ttf') format('truetype'),
+  url('../fonts/RobotoBold.svg#RobotoBold') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'RobotoLight';
+  src: url('../fonts/RobotoLight.eot');
+  src: url('../fonts/RobotoLight.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/RobotoLight.woff2') format('woff2'),
+  url('../fonts/RobotoLight.woff') format('woff'),
+  url('../fonts/RobotoLight.ttf') format('truetype'),
+  url('../fonts/RobotoLight.svg#RobotoLight') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SegoeUIBlackitalic';
+  src: url('../fonts/SegoeUIBlackitalic.eot');
+  src: url('../fonts/SegoeUIBlackitalic.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/SegoeUIBlackitalic.woff2') format('woff2'),
+  url('../fonts/SegoeUIBlackitalic.woff') format('woff'),
+  url('../fonts/SegoeUIBlackitalic.ttf') format('truetype'),
+  url('../fonts/SegoeUIBlackitalic.svg#SegoeUIBlackitalic') format('svg');
+  font-weight: 400;
+  font-style: italic;
 }
