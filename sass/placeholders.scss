@@ -38,3 +38,7 @@
   line-height: $lh-lg32;
   letter-spacing: 0.54px;
 }
+%fl-col{
+  display: flex;
+  flex-direction: column;
+}
