@@ -11,6 +11,17 @@
 .container--header-bottom{
   display: flex;
 }
+.container--counter{
+  display: flex;
+  justify-content: space-between;
+}
+.container--plan{
+  @extend %fl-col;
+}
+.container--time-management{
+  display: flex;
+  justify-content: space-between;
+}
 @media (max-width: $toast-breakpoint-small) {
 }
 @media (max-width: $toast-breakpoint-medium) {

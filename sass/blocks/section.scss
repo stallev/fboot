@@ -1,0 +1,96 @@
+.section{
+  &__images-block{
+    position: relative;
+  }
+  &__images{
+    &--front-plan{
+      padding-top: 75px;
+      padding-bottom: 75px;
+      margin: 0 auto;
+    }
+  }
+  &__image{
+    position: absolute;
+    &--banan-header1{
+      top: 100px;
+      left: 500px;
+    }
+    &--berry-header1{
+      top: 800px;
+      left: 350px;
+    }
+    &--berry-header2{
+      top: 582px;
+      left: 1200px;
+    }
+    &--pepper-plan{
+      top: 250px;
+      left: -20px;
+      z-index: -1;
+    }
+    &--apple-plan{
+      top: 480px;
+      left: 50px;
+      z-index: -1;
+    }
+    &--banan-plan{
+      top: 480px;
+      left: 1000px;
+      z-index: -1;
+    }
+    &--berry2-plan{
+      top: 250px;
+      left: 1150px;
+    }
+  }
+  &__food-list{
+    @extend %fl-col;
+  }
+  &__food-item{
+  }
+}
+.section__title{
+  margin-bottom: 15px;
+  color: $text-main-color;
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 300;
+  line-height: 60px;
+  letter-spacing: 1.44px;
+  &-modify{
+    color: $text-decorate-color;
+  }
+  &--plan{
+    text-align: center;
+  }
+}
+.section__description{
+  color: $text-main-color;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 32px;
+  letter-spacing: 0.54px;
+  &--counter{
+    width: 470px;
+  }
+  &--plan{
+    text-align: center;
+  }
+}
+.section__content--counter{
+  @extend %fl-col;
+  justify-content: center;
+  width: 570px;
+}
+.section__content--plan{
+  @extend %fl-col;
+  justify-content: center;
+  width: 850px;
+  margin: 0 auto;
+}
+.section__content--time-management{
+  width: 580px;
+  @extend %fl-col;
+  justify-content: center;
+}
