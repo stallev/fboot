@@ -22,6 +22,9 @@
   display: flex;
   justify-content: space-between;
 }
+.container--footer{
+  padding: 100px 0 ;
+}
 @media (max-width: $toast-breakpoint-small) {
 }
 @media (max-width: $toast-breakpoint-medium) {

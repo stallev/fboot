@@ -42,6 +42,18 @@
       top: 250px;
       left: 1150px;
     }
+    &--pepper-footer{
+      left: 25px;
+      top: 1px;
+    }
+    &--berry2{
+      left: 150px;
+      top: 120px;
+    }
+    &--banan-footer{
+    left: 820px;
+    top: 75px;
+    }
   }
   &__food-list{
     @extend %fl-col;
@@ -57,8 +69,15 @@
   font-weight: 300;
   line-height: 60px;
   letter-spacing: 1.44px;
+  &--footer{
+    color: #fff;
+  }
   &-modify{
     color: $text-decorate-color;
+  }
+  &-modify--footer{
+    color: #fff;
+    font-weight: 700;
   }
   &--plan{
     text-align: center;
@@ -77,6 +96,10 @@
   &--plan{
     text-align: center;
   }
+  &--footer{
+    width: 700px;
+    margin-bottom: 40px;
+  }
 }
 .section__content--counter{
   @extend %fl-col;
@@ -93,4 +116,9 @@
   width: 580px;
   @extend %fl-col;
   justify-content: center;
+}
+.section__content--footer{
+  @extend %fl-col;
+  align-items: center;
+  text-align: center;
 }
