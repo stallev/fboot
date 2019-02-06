@@ -1,12 +1,5 @@
 .counter{
   padding-top: 100px;
   padding-bottom: 100px;
-  &__slider{
-    width: 610px;
-    height: 720px;
-    background-image: url("../img/iphone_slide1.png");
-    background-repeat: no-repeat;
-    background-position: 25px 25px;
-    background-size: contain;
-  }
+  &__slider{}
 }

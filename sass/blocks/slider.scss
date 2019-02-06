@@ -1,0 +1,27 @@
+.slider{
+  display: flex;
+  &__images-list{
+    width: 370px;
+  }
+  &__image-item{
+    display: none;
+    &--visible{
+      display: block;
+    }
+  }
+  &__image{
+    width: 364px;
+    height: 712px;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  &__control-block{
+    width: 270px;
+    padding: 100px 0;
+    @extend %fl-col;
+    justify-content: space-around;
+  }
+  &__control-item{
+    height: 70px;
+  }
+}
