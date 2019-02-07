@@ -1,4 +1,23 @@
 .page-title{
-  &__title{}
-  &__description{}
+  @extend %fl-col;
+  width: 640px;
+  &__name{
+    padding: 25px 0;
+    color: #f4f4f4;
+    font-family: Roboto;
+    font-size: 64px;
+    font-weight: 300;
+    line-height: 60px;
+    letter-spacing: 2.56px;
+  }
+  &__description{
+    padding: 25px 0;
+    color: #f4f4f4;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 32px;
+    // Text style for "F, itApp i"
+    letter-spacing: 0.72px;
+  }
 }

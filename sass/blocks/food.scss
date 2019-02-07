@@ -1,0 +1,62 @@
+.food{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 30px;
+  &__info{
+    @extend %fl-col;
+    padding-right: 50px;
+  }
+  &__img{
+    margin: 0 15px;
+  }
+  &__name{
+    color: $text-decorate-color;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 1.12px;
+  }
+  &__description{
+    color: $text-main-color;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 16px;
+    letter-spacing: 0.88px;
+  }
+  &__value{
+
+  }
+  &__value-item{
+    color: $text-decorate-color;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 22px;
+    text-transform: uppercase;
+    letter-spacing: 0.88px;
+      }
+  &__time{
+    @extend %fl-col;
+  }
+  &__time-value{
+    color: #b4b4b4;
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 1.76px;
+    text-align: right;
+  }
+  &__time-m{
+    color: #b4b4b4;
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 1.76px;
+    text-align: right;
+  }
+}

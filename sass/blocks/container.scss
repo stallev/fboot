@@ -3,7 +3,27 @@
   margin: 0 auto;
   box-sizing: border-box;
   padding: 0 10px;
-
+}
+.container--header-upper{
+  display: flex;
+  justify-content: space-between;
+}
+.container--header-bottom{
+  display: flex;
+}
+.container--counter{
+  display: flex;
+  justify-content: space-between;
+}
+.container--plan{
+  @extend %fl-col;
+}
+.container--time-management{
+  display: flex;
+  justify-content: space-between;
+}
+.container--footer{
+  padding: 100px 0 ;
 }
 @media (max-width: $toast-breakpoint-small) {
 }

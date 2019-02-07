@@ -1,14 +1,4 @@
-.nav{
-  display: flex;
-}
-.nav__list{
-  display: flex;
-
-}
-.nav__item{
-  list-style-type: none;
-}
-.nav__link{
+.app-link{
   display: block;
   box-sizing: border-box;
   padding: 7px 25px;
@@ -30,4 +20,9 @@
     // Text style for "Get App"
     letter-spacing: 0.72px;
   }
+}
+.app-link--footer{
+  width: 200px;
+  align-self: center;
+  text-align: center;
 }

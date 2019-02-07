@@ -1,0 +1,44 @@
+%ordinary-text{
+  color: $text-main-color;
+  font-family: "Roboto";
+  font-size: $fsz-md18;
+  font-weight: 300;
+  line-height: $lh-lg32;
+}
+%section-title-text{
+  color: $text-main-color;
+  font-family: 'Roboto';
+  font-size: $fsz-lg48;
+  font-weight: 300;
+  line-height: $lh-lg32;
+  letter-spacing: 1.44px;
+}
+%header-title-text{
+  color: $body-color;
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 300;
+  line-height: 60px;
+  font-weight: 300;
+  letter-spacing: 1.44px;
+}
+%section-title-text-decorate{
+  color: $text-decorate-color;
+  font-family: 'Roboto';
+  font-size: $fsz-lg48;
+  font-weight: 300;
+  line-height: $lh-lg32;
+  letter-spacing: 1.44px;
+}
+%header-ordinary-text{
+  color: $body-color;
+  font-family: Roboto;
+  font-size: $fsz-md18;
+  font-weight: 300;
+  line-height: $lh-lg32;
+  letter-spacing: 0.54px;
+}
+%fl-col{
+  display: flex;
+  flex-direction: column;
+}
